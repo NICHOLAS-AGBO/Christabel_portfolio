@@ -43,7 +43,7 @@ function App() {
                     <Avatar sx={{width: 130, height: 130, border:dark?"solid 2px white":"none"}} src={pic} alt="christabel_nnaji"/>
                     <Typography variant={"h1"} sx={{
                         fontSize: {xs: "h4.fontSize", md: "h3.fontSize"}
-                    }} fontWeight={700}>Nnaji Christabel</Typography>
+                    }} fontWeight={700}>Christabel Nnaji</Typography>
                     <Typography variant={"body2"} color={"grayText"}>UI/UX & Graphics Designer</Typography>
 
                     <Stack direction={"row"} alignItems={"center"} justifyContent={"center"} gap={.5}>

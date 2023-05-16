@@ -1,2 +1,2 @@
-# Christabel_portfolio
- This is a React App (Portfolio) created for my student who is a UI/UX designer and a Graphics designer.
+# Christabel Nnaji
+[Hello, I'm Christabel Nnaji a professional and skilled UI/UX designer, I bring a unique blend of creativity, technical expertise and user-centered design principle to every product I work on. I am proficient in various design and prototyping tools such as:Adobe XD, Figma, and Photoshop which enable me to bring my ideas to life and collaborating effectively with cross-functional teams.]("https://christabelnnaji.vercel.app/")
