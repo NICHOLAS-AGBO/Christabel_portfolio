@@ -44,7 +44,7 @@ function App() {
                     <Typography variant={"h1"} sx={{
                         fontSize: {xs: "h4.fontSize", md: "h3.fontSize"}
                     }} fontWeight={700}>Christabel Nnaji</Typography>
-                    <Typography variant={"body2"} color={"grayText"}>UI/UX & Graphics Designer</Typography>
+                    <Typography sx={{fontSize: {xs: "caption.fontSize", sm: "body2.fontSize"}}} color={"grayText"}>UI/UX & Graphics Designer</Typography>
 
                     <Stack direction={"row"} alignItems={"center"} justifyContent={"center"} gap={.5}>
                         <IconButton href={"https://www.behance.net/nnajichristabel"} target={"_blank"}>
