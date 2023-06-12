@@ -1,6 +1,5 @@
 import {createContext, FC, ReactNode, useCallback, useEffect, useMemo, useState} from "react";
 import {createTheme, CssBaseline, PaletteMode, Paper, ThemeOptions, ThemeProvider, useMediaQuery} from "@mui/material";
-import {purple} from "@mui/material/colors";
 
 const lightTheme:ThemeOptions = {
     palette: {
@@ -12,7 +11,7 @@ const lightTheme:ThemeOptions = {
             main: "#fff"
         },
         background:{
-            paper: purple["100"]
+            paper: "#D1F6FF"
         }
     }
 };
