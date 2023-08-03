@@ -18,7 +18,7 @@ function App() {
     const dark = mode==="dark";
   return (
       <>
-        <AppBar position={"sticky"} elevation={0} sx={{
+        <AppBar position={"sticky"} sx={{
             background:dark?"common.black":"linear-gradient(45deg, #5540f8, #9b31d1)"
         }}>
           <Toolbar sx={{justifyContent: "space-between"}}>
@@ -44,7 +44,7 @@ function App() {
                     <Typography variant={"h1"} sx={{
                         fontSize: {xs: "h4.fontSize", md: "h3.fontSize"}
                     }} fontWeight={700}>Christabel Nnaji</Typography>
-                    <Typography sx={{fontSize: {xs: "caption.fontSize", sm: "body2.fontSize"}}}>UI/UX & Graphics Designer</Typography>
+                    <Typography align={"center"} width={"100%"} sx={{fontSize: {xs: "caption.fontSize", sm: "body2.fontSize"}}}>UI/UX & Graphics Designer</Typography>
 
                     <Stack direction={"row"} alignItems={"center"} justifyContent={"center"} gap={.5}>
                         <IconButton sx={{color: dark?"gray":"common.white"}} href={"https://www.behance.net/nnajichristabel"} target={"_blank"}>
