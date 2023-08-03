@@ -59,7 +59,7 @@ function App() {
                 </Stack>
 
 
-                <Stack direction={"column"} alignItems={"center"} justifyContent={"center"} rowGap={2}>
+                <Stack direction={"column"} alignItems={"center"} justifyContent={"center"} rowGap={2} sx={{px: 3}}>
                     <Button sx={{bgcolor: "white", color: "black",
                         "&:hover":{bgcolor: "white", color: "black",}}}
                         variant={"contained"} target={"_blank"}
@@ -77,8 +77,8 @@ function App() {
                         href={"https://wa.me/+2348104614410"} fullWidth size={"large"} startIcon={<WhatsApp/>}>
                         Whatsapp
                     </Button>
-                    <Box textAlign={"center"}>
-                        <Typography sx={{fontSize: "h6.fontSize"}}>About me:</Typography>
+                    <Box>
+                        <Typography align={"center"} sx={{fontSize: "h6.fontSize"}}>About me:</Typography>
                         <Typography>
                             Hello, I'm <b>Christabel Nnaji</b>, a skilled and passionate UIUX Designer with 2 years of experience
                             in creating, engaging and intuitive user Interface and user experience. I am proficient in various design and
