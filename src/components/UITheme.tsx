@@ -1,5 +1,14 @@
 import {createContext, FC, ReactNode, useCallback, useEffect, useMemo, useState} from "react";
-import {createTheme, CssBaseline, PaletteMode, Paper, ThemeOptions, ThemeProvider, useMediaQuery} from "@mui/material";
+import {
+    Box,
+    createTheme,
+    CssBaseline,
+    PaletteMode,
+    Paper,
+    ThemeOptions,
+    ThemeProvider,
+    useMediaQuery
+} from "@mui/material";
 
 const lightTheme:ThemeOptions = {
     palette: {
@@ -7,11 +16,14 @@ const lightTheme:ThemeOptions = {
         primary:{
             main: "#000",
         },
+        text:{
+            primary: "#fff"
+        },
         secondary:{
             main: "#fff"
         },
         background:{
-            paper: "#D1F6FF"
+            paper: "linear-gradient(45deg, #5540f8, #9b31d1)"
         }
     }
 };
@@ -82,11 +94,13 @@ const UI:FC<{children: ReactNode}> = ({children})=>{
         <ThemeContext.Provider value={{Theme: Theme, toggleTheme: changeTheme, mode: theme.palette!.mode}}>
             <ThemeProvider theme={Theme}>
                 <CssBaseline />
-                <Paper
-                    elevation={0}
-                    sx={{borderRadius: 0, p: 0, m: 0}}>
+                <Box
+                    sx={{
+                        background:theme.palette!.mode==="dark"?
+                            "common.black":"linear-gradient(45deg, #5540f8, #9b31d1)",
+                }}>
                     {children}
-                </Paper>
+                </Box>
             </ThemeProvider>
         </ThemeContext.Provider>
     )
