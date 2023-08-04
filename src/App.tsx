@@ -40,7 +40,7 @@ function App() {
                 <Stack justifyContent={"center"} alignItems={"center"} direction={"column"} sx={{
                     rowGap: 1
                 }}>
-                    <Avatar variant={"square"} sx={{width: 150, height: 150, border:dark?"solid 1px white":"none"}} src={pic} alt="christabel_nnaji"/>
+                    <Avatar sx={{width: 150, height: 150, border:dark?"solid 2px white":"none"}} src={pic} alt="christabel_nnaji"/>
                     <Typography variant={"h1"} sx={{
                         fontSize: {xs: "h4.fontSize", md: "h3.fontSize"}
                     }} fontWeight={700}>Christabel Nnaji</Typography>
