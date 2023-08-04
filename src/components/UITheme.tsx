@@ -4,7 +4,6 @@ import {
     createTheme,
     CssBaseline,
     PaletteMode,
-    Paper,
     ThemeOptions,
     ThemeProvider,
     useMediaQuery
@@ -97,7 +96,7 @@ const UI:FC<{children: ReactNode}> = ({children})=>{
                 <Box
                     sx={{
                         background:theme.palette!.mode==="dark"?
-                            "common.black":"linear-gradient(45deg, #5540f8, #9b31d1)",
+                            "#121212":"linear-gradient(45deg, #5540f8, #9b31d1)",
                 }}>
                     {children}
                 </Box>
