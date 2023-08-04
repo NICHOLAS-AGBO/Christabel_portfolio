@@ -10,7 +10,7 @@ import {
     Stack, Grid, Button, Link
 } from "@mui/material";
 import {Email, Instagram, LinkedIn, Person, PictureAsPdf, Twitter, WhatsApp} from "@mui/icons-material";
-import pic from "./img/christabel.jpeg";
+import pic from "./img/me.jpg";
 import useTheme from "./hooks/useTheme";
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
                 <Stack justifyContent={"center"} alignItems={"center"} direction={"column"} sx={{
                     rowGap: 1
                 }}>
-                    <Avatar sx={{width: 130, height: 130, border:dark?"solid 2px white":"none"}} src={pic} alt="christabel_nnaji"/>
+                    <Avatar variant={"square"} sx={{width: 150, height: 150, border:dark?"solid 1px white":"none"}} src={pic} alt="christabel_nnaji"/>
                     <Typography variant={"h1"} sx={{
                         fontSize: {xs: "h4.fontSize", md: "h3.fontSize"}
                     }} fontWeight={700}>Christabel Nnaji</Typography>
@@ -78,7 +78,7 @@ function App() {
                         Whatsapp
                     </Button>
                     <Box>
-                        <Typography align={"center"} sx={{fontSize: "h6.fontSize"}}>About me:</Typography>
+                        <Typography align={"center"} sx={{fontSize: "h6.fontSize", mb: .5}}>ABOUT ME:</Typography>
                         <Typography>
                             Hello, I'm <b>Christabel Nnaji</b>, a skilled and passionate UIUX Designer with 2 years of experience
                             in creating, engaging and intuitive user Interface and user experience. I am proficient in various design and
